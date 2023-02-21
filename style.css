@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Teko:wght@300;400;500;600;700&display=swap');
+
+:root {
+	--branco: #fff;
+	--brancoC: #ccc;
+	--pretoC: #333;
+	--preto: #000;
+	--verdeAz: #008080;
+	--aquimarine: #7FFFD4;
+	--darkT: #00CED1;
+	--anton: 'Anton', sans-serif;
+	--bebas: 'Bebas Neue', cursive;
+	--teko: 'Teko', sans-serif;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	vertical-align: baseline;
+	list-style: none;
+}
+
+body {
+	background-color: var(--verdeAz);
+}
+
+.tittle {
+	background-color: #1e1e1e;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px 0;
+    margin: 10px 0;
+    text-transform: uppercase;
+    font-family: var(--anton);
+    letter-spacing: 2px;
+    color: var(--aquimarine);
+    border: 2px solid var(--aquimarine);
+}
+
+.container {
+	height: 100vh;
+}
+
+.conteudo {
+	background: #fff;
+	height: 600px;
+	width: 100%;
+	border-radius: 10px;
+	border: 1px solid var(--pretoC);
+}
+
+input {
+	border: 1px solid var(--pretoC);
+	border-radius: 5px;
+}
+
+button {
+	background-color: var(--aquimarine);
+    padding: 10px;
+    border-radius: 10px;
+    color: var(--pretoC);
+    font-weight: 700;
+    letter-spacing: 1px;
+    border: 1px solid var(--verdeAz);
+}
+
+.result {
+	width: 100%; 
+	height: 80%; 
+	border-radius: 10px; 
+	padding: 10px;
+}
